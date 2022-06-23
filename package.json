@@ -1,0 +1,53 @@
+{
+	"name": "@lrnz09/luhn",
+	"version": "1.0.0",
+	"description": "Set of utilities using the Luhn algorithm",
+	"keywords": [
+		"luhn",
+		"luhn-algorithm",
+		"luhn-checkdigit",
+		"luhn-validation",
+		"luhn-validator",
+		"utilities",
+		"utility"
+	],
+	"homepage": "https://github.com/LRNZ09/luhn",
+	"bugs": {
+		"url": "https://github.com/LRNZ09/luhn/issues",
+		"email": "natter_prawns.0w@icloud.com"
+	},
+	"repository": "github:LRNZ09/luhn",
+	"license": "ISC",
+	"author": {
+		"name": "Lorenzo Pieri",
+		"email": "natter_prawns.0w@icloud.com",
+		"url": "https://lorenzopieri.dev"
+	},
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"prepare": "husky install",
+		"prepublish": "tsc --project tsconfig.publish.json"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^17.0.2",
+		"@commitlint/config-conventional": "^17.0.2",
+		"@lrnz09/prettier-config": "^1.0.0",
+		"@tsconfig/node16-strictest-esm": "^1.0.3",
+		"@types/jest": "^28.1.3",
+		"@types/node": "^18.0.0",
+		"eslint": "^8.18.0",
+		"eslint-config-universe": "^11.0.0",
+		"husky": "^8.0.0",
+		"jest": "^28.1.1",
+		"lint-staged": "^13.0.2",
+		"prettier": "^2.7.1",
+		"ts-jest": "^28.0.5",
+		"ts-node": "^10.8.1",
+		"typescript": "^4.7.4"
+	},
+	"packageManager": "pnpm@7.3.0",
+	"engines": {
+		"node": ">=16"
+	}
+}

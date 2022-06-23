@@ -1,0 +1,7 @@
+{
+	"compilerOptions": {
+		"noEmit": true
+	},
+	"exclude": ["coverage", "dist"],
+	"extends": "@tsconfig/node16-strictest-esm/tsconfig.json"
+}
